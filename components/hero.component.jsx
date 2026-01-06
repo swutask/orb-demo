@@ -25,7 +25,7 @@ export function HeroComponent() {
   };
 
   return (
-    <div className={"relative w-full h-[65vh] overflow-hidden bg-black"}>
+    <div className={"relative w-full h-[75vh] overflow-hidden bg-black"}>
       <video
         ref={videoRef}
         src="/video/hero-animation.webm"
